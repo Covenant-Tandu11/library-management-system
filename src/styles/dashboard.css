@@ -1,0 +1,28 @@
+.dashboard-content{
+    display: grid;
+    grid-template-columns: 1.6fr 1fr;
+    grid-template-areas: 
+    "stats stats" 
+    "borrowing availability"
+    "borrowing bottom"
+    ;
+    gap: 1rem;
+}
+
+.stats{
+    grid-area: stats;
+}
+
+.borrowing{
+    grid-area: borrowing;
+}
+
+.availability{
+    grid-area: availability;
+
+
+}
+
+.bottom{
+    grid-area: bottom;
+}
